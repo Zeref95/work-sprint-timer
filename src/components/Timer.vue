@@ -44,7 +44,7 @@ const showTime = computed(() => {
       </button>
     </div>
     <div v-else class="d-flex align-items-center justify-content-center">
-      <span>{{showTime}}</span>
+      <span class="display-1">{{showTime}}</span>
     </div>
   </div>
 </template>
